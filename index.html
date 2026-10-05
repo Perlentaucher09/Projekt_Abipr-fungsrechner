@@ -7,12 +7,112 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<nav>
+      <details>
+        <summary>Inhaltsverzeichnis</summary>
+      <ul>
+      <li><a href="#Github">Github</a></li>
+
+      </ul>
+      </details>
+    </nav>
 	<header class="site-header">
-		
+		<h1>Abiturprüfungsrechner</h1>
 	</header>
 
 
-	<main class="container main-content">
+	<main>
+		<section class="content">
+			<h2>Willkommen zum Abiturprüfungsrechner</h2>
+			<p>Hier können Sie Ihre Abiturnoten berechnen.</p>
+		</section>
+
+		<section>
+			<label for="fach">Ersten Leistungskurs auswählen:</label>
+
+			<select id="fach" name="fach">
+   				<option value="englisch">Englisch</option>
+    			<option value="franzoesisch">Französisch</option>
+    			<option value="mathematik">Mathematik</option>
+    			<option value="biologie">Biologie</option>
+    			<option value="chemie">Chemie</option>
+    			<option value="physik">Physik</option>
+			</select>
+
+			<br>
+
+			<label for="fach2">Zweiten Leistungskurs auswählen:</label>
+
+			<select id="fach2" name="fach2">
+				<option value="deutsch">Deutsch</option>
+				<option value="englisch">Englisch</option>
+				<option value="franzoesisch">Französisch</option>
+				<option value="kunst">Kunst</option>
+				<option value="musik">Musik</option>
+				<option value="geschichte">Geschichte</option>
+				<option value="politik-wirtschaft">Politik und Wirtschaft</option>
+				<option value="mathematik">Mathematik</option>
+				<option value="biologie">Biologie</option>
+				<option value="chemie">Chemie</option>
+				<option value="physik">Physik</option>
+				<option value="informatik">Informatik</option>
+				<option value="sport">Sport</option>
+			</select>
+
+			<br>
+
+			<label>
+				<input type="checkbox" id="sp_drei" name="sp_drei">
+					Sport Dreistündig
+			</label>
+
+			<br>
+
+			<p>Musisik oder Kunst</p>
+
+			<label>
+				<input type="radio" name="musisches-fach" value="musik">
+				Musik
+			</label>
+
+			<label>
+				<input type="radio" name="musisches-fach" value="kunst">
+				Kunst
+			</label>
+
+			<br>
+
+			<label for="abgewählt_1">Abgewähltes Fach 1 auswählen:</label>
+			<select id="abgewählt_1" name="abgewählt_1">
+				<option value=null>-</option>
+				<option value="latein">Latein</option>
+				<option value="franzoesisch">Französisch</option>
+				<option value="englisch">Englisch</option>
+				<option value="physik">Physik</option>
+				<option value="chemie">Chemie</option>
+				<option value="biologie">Biologie</option>
+				<option value="kunst">Kunst</option>
+				<option value="musik">Musik</option>
+			</select>
+
+			<br>
+
+			<label for="abgewaehlt_2">Abgewähltes Fach 2 auswählen:</label>
+			<select id="abgewaehlt_2" name="abgewaehlt_2">
+				<option value=null>-</option>
+				<option value="latein">Latein</option>
+				<option value="franzoesisch">Französisch</option>
+				<option value="englisch">Englisch</option>
+				<option value="physik">Physik</option>
+				<option value="chemie">Chemie</option>
+				<option value="biologie">Biologie</option>
+				<option value="kunst">Kunst</option>
+				<option value="musik">Musik</option>
+			</select>
+
+
+		</section>
+		
 		
 	</main>
 
